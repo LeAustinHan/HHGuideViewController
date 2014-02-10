@@ -15,7 +15,6 @@
 @implementation HHGuideViewController
 
 @synthesize animating = _animating;
-
 @synthesize guideScroll = _guideScroll;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -27,7 +26,7 @@
     return self;
 }
 
-#pragma mark -
+#pragma mark - set frame
 
 - (CGRect)onscreenFrame
 {
